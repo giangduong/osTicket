@@ -28,7 +28,8 @@ if ($cfg->getClientRegistrationMode() == 'disabled'
         || isset($_POST['lticket']))
     $inc = 'accesslink.inc.php';
 else
-    $inc = 'login.inc.php';
+    // $inc = 'login.inc.php';
+    $inc = 'login.inc.ptv.php';
 
 $suggest_pwreset = false;
 
