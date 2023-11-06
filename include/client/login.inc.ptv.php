@@ -57,7 +57,7 @@ if (count($ext_bks)) {
     </div>
     
 <?php } ?>
-<div style="display:table-cell;padding: 15px;vertical-align:top">
+<div style="display:table-cell;padding: 15px;vertical-align:middle">
     <div>
     <b><?php echo __("I'm an agent"); ?></b> —
     <a href="<?php echo ROOT_PATH; ?>scp/"><?php echo __('sign in here'); ?></a>
